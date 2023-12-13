@@ -8,12 +8,16 @@ body {
   }
   
   header, footer {
-    background-color: #283747;
+    background-color: #1b396a;;
     color: white;
     text-align: center;
     padding: 20px 0;
   }
   
+  footer{
+    margin-top: 235px;
+  }
+
   main {
     display: flex;
     flex-wrap: wrap;
