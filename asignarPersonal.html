@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignación de Profesor y Alumno</title>
+    <link rel="stylesheet" href="css/asignarPersonal.css">
+</head>
+<body>
+    <header>
+        <h1>Asignación de Profesor y Alumno</h1>
+        <nav>
+            <a href="administrador.html">Seleccionar Periodo</a>
+            <a href="añadirPeriodo.html">Añadir Periodo</a>
+            <a href="home.html">Proyectos</a>
+            <a href="usersRequest.html">Solicitudes</a>
+            <a href="#">Cerrar Sesión</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="asignacion">
+            <div class="proyecto">
+                <h2>Proyecto Programa de Residencias</h2>
+                <p>Descripción del proyecto...</p>
+
+                <form class="asignacion-form">
+                    <label for="profesor">Profesor:</label>
+                    <select id="profesor" name="profesor">
+                        <!-- Opciones de profesores -->
+                        <option value="profesor1">Profesor 1</option>
+                        <option value="profesor2">Profesor 2</option>
+                        <option value="profesor3">Profesor 3</option>
+                        <!-- Agregar más opciones según sea necesario -->
+                    </select>
+                    <button type="submit">Asignar</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Administrador</p>
+    </footer>
+</body>
+</html>

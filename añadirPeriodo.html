@@ -8,23 +8,25 @@
 <body>
 
   <header>
-    <h1>Bienvenido, Administrador</h1>
+    <h1>Administrador</h1>
     <nav>
-      <a href="administrador.html">Inicio</a>
-      <a href="home.html">Ofertas</a>
+      <a href="administrador.html">Seleccionar Periodo</a>
+      <a href="home.html">Añadir Periodo</a>
       <a href="usersRequest.html">Solicitudes</a>
     </nav>
   </header>
 
   <main>
     <section class="tareas">
-      <h2 class="admin-tittle">Tareas de Administrador</h2>
-      <h2 class="admin-period" >Periodo 2023-2</h2>
+      <h2 class="admin-tittle">Añadir Periodo</h2>
+      <!-- Lista de tareas -->
       <ul>
         <!-- Agrega botones o enlaces para realizar estas tareas -->
+        <div class="period-section">
+            <input class="period-input" type="text" placeholder="Ejemplo: 2023-1">
+            <button class="bttn" type="submit">Seleccionar</button>
+          </div>
         </div>
-        <button class="tareaBtn" data-tarea="Salir de Periodo">Salir de periodo</button>
-        <button class="tareaBtn" data-tarea="Asignar Personal">Asignar personal</button>
       </ul>
     </section>
   </main>
